@@ -1,0 +1,21 @@
+{
+  "name": "pipeline-pi-6-termo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test tests/pipeline.test.js",
+    "queries": "node src/queries/analyticalQueries.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "ioredis": "^6.0.0",
+    "mongodb": "^7.7.0",
+    "mysql2": "^3.24.6"
+  }
+}
